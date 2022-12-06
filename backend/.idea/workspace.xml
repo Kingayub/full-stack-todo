@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc30275a-f463-4212-a3ce-aa071c00d973" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Frontend/REACT-USECONTEXT/.idea/REACT-USECONTEXT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Frontend/REDUX-TOOLKIT/offline-shop-redux-toolkit/.idea/offline-shop-redux-toolkit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Frontend/REDUX-TOOLKIT/todo-redux-toolkit/src/app/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Frontend/REDUX-TOOLKIT/todo-redux-toolkit/src/components/Todos.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Frontend/REDUX-TOOLKIT/todo-redux-toolkit/src/features/todoReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Frontend/REDUX-TOOLKIT/todo-redux-toolkit/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Frontend/REDUX/react-redux-schetchik/.idea/react-redux-schetchik.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Frontend/DOM API/five-day/people-on-space" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Frontend/DOM API/five-day/people-on-space" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2IVdRCNSueWiyxjlN5UR9qNqpne" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc30275a-f463-4212-a3ce-aa071c00d973" name="Changes" comment="" />
+      <created>1670270673685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670270673685</updated>
+      <workItem from="1670270678247" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
