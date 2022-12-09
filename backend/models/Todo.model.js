@@ -8,6 +8,10 @@ const todoSchema = mongoose.Schema({
     complited: {
         type: Boolean,
         default: false
+    },
+    user:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref:'User'
     }
 })
 const Todo = mongoose.model('Todo', todoSchema)
