@@ -1,13 +1,35 @@
+.container {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 2px solid black;
+}
+
 .todos {
     display: flex;
     justify-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 15px;
+}
+.users {
+    text-align: center;
+    list-style: none;
 }
 
 .header_todo {
-
     margin-bottom: 15px;
+}
+
+.signin {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.signup {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .favorite {

@@ -1,4 +1,5 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
+import applicationSlice from "./applicationSlice";
 
 const initialState = {
   todos:[],
@@ -25,11 +26,12 @@ export const addTodo = createAsyncThunk('todo/add/fetch', async (data, thunkAPI)
       method: 'POST',
       body: JSON.stringify({title:data.input}),
       headers: {
+        Authorization: `Bearer ${thunkAPI.getState().applicationSlice.token}`,
         'Content-Type': 'application/json'
       }
     })
 
-    const todos =await res.json()
+    const todos = await res.json()
     if(todos.error) {
       return thunkAPI.rejectWithValue(todos.error)
     }
@@ -42,7 +44,10 @@ export const addTodo = createAsyncThunk('todo/add/fetch', async (data, thunkAPI)
 export const deleteTodo = createAsyncThunk('todo/delete/fetch', async (data, thunkAPI)=> {
   try {
     const res = await fetch('http://localhost:3001/' + data.id, {
-      method:'DELETE'
+      method:'DELETE',
+      headers: {
+        Authorization: `Bearer ${thunkAPI.getState().applicationSlice.token}`
+      }
     })
     console.log("Deleted")
     return data.id

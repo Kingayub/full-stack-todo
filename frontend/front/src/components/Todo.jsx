@@ -1,8 +1,9 @@
 import React from 'react';
 import style from "./todos.module.css"
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {deleteTodo, favoriteTodo} from "../features/todoReducer";
-const Todo = ({id,star,title,complited,deleteBtn}) => {
+const Todo = ({id,star,title,complited,deleteBtn, todoUser}) => {
+  const idU = useSelector((state)=> state.applicationSlice.idUser)
   const dispatch = useDispatch()
 
   const deleteHandler = () => {
@@ -13,7 +14,7 @@ const Todo = ({id,star,title,complited,deleteBtn}) => {
     dispatch(favoriteTodo({id,complited}))
   }
   return (
-    <div className={complited ? style.todos : style.favorite}>
+    <div className={complited ? style.favorite : style.todos}>
       <div onClick={favoriteHandler}>
         {star}
       </div>
@@ -21,7 +22,7 @@ const Todo = ({id,star,title,complited,deleteBtn}) => {
         {title}
       </div>
       <div>
-        <span role="button" onClick={deleteHandler}> {deleteBtn}</span>
+        {todoUser === idU ?  <span role="button" onClick={deleteHandler}> {deleteBtn}</span> :  <button disabled={true} >{deleteBtn}</button>}
       </div>
     </div>
   );

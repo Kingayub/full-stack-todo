@@ -4,3 +4,17 @@
     margin-top: 100px;
     text-align: center;
 }
+
+.links_without_token {
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.links_with_token {
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+    justify-content: center;
+}
